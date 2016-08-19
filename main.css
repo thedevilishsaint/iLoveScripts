@@ -51,38 +51,19 @@ header {
 }
 
 #action {
-  background: magenta;
+  background: white;
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-}
-#action .left {
-  width: 400px;
-  height: 400px;
-  border-radius: 100%;
-  background: pink;
-  margin-right: 20px;
-  transition: 0.5s ease-out;
-}
-#action .left:hover {
-  background: yellow;
-}
-#action .right {
-  width: 400px;
-  height: 400px;
-  border-radius: 100%;
-  background: pink;
-  margin-left: 20px;
-  transition: 0.5s ease-out;
-}
-#action .right:hover {
-  background: yellow;
 }
 
 #about {
-  background: cyan;
+  background-image: url(pictures/about.png);
   width: 100%;
   height: 100vh;
+  background-size: cover;
+  background-position: center;
+
 }
