@@ -67,7 +67,7 @@ header {
   text-align: center;
   overflow-x: hidden;
 }
-#about hr {
+hr {
   width: 88%;
 }
 #about h1 {
@@ -78,8 +78,43 @@ header {
   padding: 20px 10% 0px 10%;
 }
 
+#how-it-works {
+  width: 100%;
+  height: 100vh;
+  background-image: url(pictures/how_it_works.png);
+  background-size: cover;
+  background-position: center center;
+}
+#how-it-works h2 {
+  text-align: center;
+  font-size: 38pt;
+}
+
 footer {
   width: 100%;
   height: 100px;
   background-color: #333;
+
+}
+footer ul {
+  text-align: center;
+  margin: 0px 20% 20px 20%;
+  padding-top: 20px;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer ul li a:hover {
+  color: #ccc;
+}
+
+footer p {
+  text-align: center;
+  color: #bbb;
 }
