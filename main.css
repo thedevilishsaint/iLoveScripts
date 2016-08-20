@@ -41,7 +41,6 @@ header {
   list-style: none;
   display: inline-block;
   float: left;
-  padding-right: 15px;
   background-color: white;
   padding: 10px 20px;
   margin: 8px 3px 0px 0px;
@@ -51,7 +50,7 @@ header {
 }
 
 #action {
-  background: white;
+  background: #F9FAE8;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -65,5 +64,22 @@ header {
   height: 100vh;
   background-size: cover;
   background-position: center;
+  text-align: center;
+  overflow-x: hidden;
+}
+#about hr {
+  width: 88%;
+}
+#about h1 {
+  font-size: 42pt;
+}
+#about p {
+  font-size: 36pt;
+  padding: 20px 10% 0px 10%;
+}
 
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #333;
 }
